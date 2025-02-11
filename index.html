@@ -1,0 +1,47 @@
+<!--/**
+* Made by: Dani Technology (Full Stack Engineer)
+* Created on: January 10, 2024
+* Contact developer:
+* - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
+* - Email: dani.technology.id@gmail.com
+* - GitHub: https://github.com/dani-techno
+*/-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wotty AI</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="./assets/css/style.css?v=1.0">
+  <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- Ads area -->
+  <div class="ads-container">
+    <p style="display: flex; flex-directon: column; margin-top: 5px;">
+      Coba Wotty AI&nbsp;<a style="color: skyblue; text-decoration: none;" href="https://forestapi.web.id">API</a>
+    </p>
+    <span class="close-btn" onclick="closeAds()"><i class="material-symbols-rounded">close</i></span>
+  </div>
+
+  <!-- Chats container -->
+  <div class="chat-container"></div>
+
+  <!-- Typing container -->
+  <div class="typing-container">
+    <div class="typing-content">
+      <div class="typing-textarea">
+        <textarea id="chat-input" spellcheck="false" placeholder="Send a message" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+      </div>
+      <div class="typing-controls">
+        <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
+        <span id="delete-btn" class="material-symbols-rounded">delete</span>
+      </div>
+    </div>
+
+  </body>
+</html>
