@@ -7,7 +7,7 @@ Wotty AI adalah aplikasi web yang memungkinkan pengguna berkomunikasi dengan AI 
 - Dukungan tema gelap dan terang.
 - Kemampuan untuk menghapus semua percakapan.
 - Menyimpan riwayat percakapan secara lokal di browser pengguna.
-- Memanfaatkan API Forest API untuk pemrosesan AI.
+- Memanfaatkan API dari "Forest API" untuk pemrosesan AI.
 
 ## Cara Menggunakan
 1. Clone repositori ini ke lokal:
