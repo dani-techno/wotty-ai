@@ -60,7 +60,7 @@ let selectedModel = localStorage.getItem("aiModel") || "wotty";
 modelSelect.value = selectedModel;
 
 const requestApiKey = () => {
-  secretKey = /*prompt("Masukkan API Key forestapi.web.id Anda:") || */"sk-danitechno";
+  secretKey = prompt("Masukkan API Key forestapi.web.id Anda:") || "sk-danitech";
   if (secretKey && secretKey.trim()) {
     localStorage.setItem("apiKey", secretKey);
   } else {
